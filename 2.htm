@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>创作团队</title>
+    <style>
+        #a2{
+            color: rgba(250, 235, 215, 0.522);
+            position: absolute;
+            left: 710px;
+        }
+        p{
+            text-align: center;
+            line-height:2.2;
+        }
+        #p3{
+            color: rgba(238, 17, 61, 0.842);
+        }
+        video{
+            position: absolute;
+            left: 240px;
+            /* text-align: center; */
+        }
+        footer a{
+            position: absolute;
+            top: 1350px;
+        }
+    </style>
+    <link rel="stylesheet" href="./0.css">
+</head>
+<body>
+
+
+    <nav>
+        <div>
+            <ul type="none">
+                <li><a href="./1.htm">基本介绍</a></li>
+                <li><a href="./2.htm">创作团队</a></li>
+                <li><a href="./3.htm">画面展示</a></li>
+                <li><a href="./4.htm">OST</a></li>
+                <li>返回
+                <ul class="back" type="none">
+                    <li><a href="./0.htm" id="back2">返回主页</a></li>
+                    <li><a href="#" onclick="goBack()" id="back1">返回前页</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <section>
+        <script>
+            function goBack() {
+              window.history.back();
+            }
+          </script>
+    </section>
+
+    <section>
+        <h1>创作团队</h1>
+    </section>
+
+    <section>
+        <p>《空洞骑士》是由澳大利亚的独立游戏开发者Team Cherry（樱桃工作室）开发的。</p>
+        <p>成立： Team Cherry成立于2014年，由三位成员共同创办，分别是Ari Gibson、William Pellen和Jack Vine。</p>
+            <p>团队成员：</p>
+             <p>=Ari Gibson： 是团队的艺术总监，负责游戏的艺术设计、角色设计和手绘动画。他的艺术风格为《空洞骑士》赋予了独特的视觉感。</p>
+            <p>William Pellen： 是团队的技术总监，主要负责游戏的编程和技术方面的工作。他在游戏开发领域有丰富的经验。</p>
+             <p>Jack Vine： 是团队的音乐总监，负责游戏的音乐和音效。他的音乐为《空洞骑士》增添了深刻的氛围和情感。</p>  
+            <p>总体风格： Team Cherry以其独特的手绘艺术风格和深刻的游戏设计而闻名。他们注重游戏的氛围和玩家体验，创造出一个富有深度和谜团的游戏世界。</p>
+            <p>总部： 团队总部位于澳大利亚阿德莱德。</p>
+    </section>
+
+    <section>
+        <p id="p3">游戏媒体IGN的评价</p>
+        <video controls>
+            <source src="./pic/IGN.mp4">
+        </video>
+    </section>
+
+    <footer>
+        <a href="https://www.teamcherry.com.au/games" id="a2">工作室官方网站</a>
+    </footer>
+</body>
+</html>

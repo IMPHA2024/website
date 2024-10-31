@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画面展示</title>
+    <style>
+        section div{
+            text-align: center;
+            margin-top: 45px;
+        }
+        section div:hover{
+            background-color: rgba(34, 231, 231, 0.152);
+        }
+        img{
+            height: 500px;
+        }
+    </style>
+    <link rel="stylesheet" href="./0.css">
+</head>
+<body>
+
+
+    <nav>
+        <div>
+            <ul type="none">
+                <li><a href="./1.htm">基本介绍</a></li>
+                <li><a href="./2.htm">创作团队</a></li>
+                <li><a href="./3.htm">画面展示</a></li>
+                <li><a href="./4.htm">OST</a></li>
+                <li>返回
+                <ul class="back" type="none">
+                    <li><a href="./0.htm" id="back2">返回主页</a></li>
+                    <li><a href="#" onclick="goBack()" id="back1">返回前页</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+    <section>
+        <script>
+            function goBack() {
+              window.history.back();
+            }
+          </script>
+    </section>
+
+    
+    <section>
+        <h1>画面展示</h1>
+    </section>
+
+    <section>
+        <div>
+            <img src="./pic/a.jpg" alt="">
+        </div>
+        <div>
+            <img src="./pic/b.jpg" alt="">
+        </div>
+        <div>
+            <img src="./pic/c.jpg" alt="">
+        </div>
+        <div>
+            <img src="./pic/d.jpg" alt="">
+        </div>
+        <div>
+            <img src="./pic/e.jpg" alt="">
+        </div>
+        <div>
+            <img src="./pic/f.jpg" alt="">
+        </div>
+        <div>
+            <img src="./pic/g.jpg" alt="">
+        </div>
+        <div>
+            <img src="./pic/h.jpg" alt="">
+        </div>
+        <div>
+            <img src="./pic/i.jpg" alt="">
+        </div>
+        <div>
+            <img src="./pic/j.jpg" alt="">
+        </div>
+    </section>
+</body>
+</html>
